@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "image": "/Bundle_images/apple.jpg",
+    "name": "Apples",
+    "description": "Washington Apples are dark red, crispy and are a popular variety of apples. It is often used in salads, pies or in fruit custards.",
+    "price": "100.00"
+  },
+  {
+    "id": 2,
+
+    "image": "/Bundle_images/banana.jpg",
+    "name": "Banana",
+    "description": "Washington Apples are dark red, crispy and are a popular variety of apples. It is often used in salads, pies or in fruit custards.",
+    "price": "800.00"
+  },
+  {
+    "id": 3,
+
+    "image": "/Bundle_images/kiwi.jpg",
+    "name": "Kiwi",
+    "description": "Washington Apples are dark red, crispy and are a popular variety of apples. It is often used in salads, pies or in fruit custards.",
+    "price": "800.00"
+  },
+  {
+    "id": 4,
+
+    "image": "/Bundle_images/onion.jpg",
+    "name": "Onion",
+    "description": "Washington Apples are dark red, crispy and are a popular variety of apples. It is often used in salads, pies or in fruit custards.",
+    "price": "80.00"
+  },
+  {
+    "id": 5,
+
+    "image": "/Bundle_images/paneer.jpg",
+    "name": "Paneer",
+    "description": "Washington Apples are dark red, crispy and are a popular variety of apples. It is often used in salads, pies or in fruit custards.",
+    "price": "80.00"
+  },
+  {
+    "id": 6,
+
+    "image": "/Bundle_images/tomato.jpg",
+    "name": "Tomatoes",
+    "description": "Washington Apples are dark red, crispy and are a popular variety of apples. It is often used in salads, pies or in fruit custards.",
+    "price": "80.00"
+  }
+]
