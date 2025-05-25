@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -24,10 +25,10 @@ function Header() {
 
   return (
     <header className={isScrolled ? "active" : ""}>
-      <button className="logo" onClick={() => window.scrollTo(0, 0)}>
+      <Link to="/" className="logo" onClick={() => window.scrollTo(0, 0)}>
         <img src={`${process.env.PUBLIC_URL}/logo.jpg`} alt="basket" /> Chef
         Basket
-      </button>
+      </Link>
       <div
         className={`bx bx-menu ${isMenuActive ? "active" : ""}`}
         id="menu-icon"
@@ -36,16 +37,24 @@ function Header() {
       ></div>
       <ul className={`navbar ${isMenuActive ? "active" : ""}`} ref={navbarRef}>
         <li>
-          <a href="#home">Home</a>
+          <Link to="/" onClick={() => setIsMenuActive(false)}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="/about" onClick={() => setIsMenuActive(false)}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="#shop">Shop</a>
+          <Link to="/shop" onClick={() => setIsMenuActive(false)}>
+            Shop
+          </Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="/contact" onClick={() => setIsMenuActive(false)}>
+            Contact
+          </Link>
         </li>
       </ul>
     </header>
