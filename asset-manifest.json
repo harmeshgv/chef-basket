@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/chef-basket/static/css/main.47e728ea.css",
-    "main.js": "/chef-basket/static/js/main.03c98bbb.js",
+    "main.js": "/chef-basket/static/js/main.6c03c6ed.js",
     "index.html": "/chef-basket/index.html",
     "main.47e728ea.css.map": "/chef-basket/static/css/main.47e728ea.css.map",
-    "main.03c98bbb.js.map": "/chef-basket/static/js/main.03c98bbb.js.map"
+    "main.6c03c6ed.js.map": "/chef-basket/static/js/main.6c03c6ed.js.map"
   },
   "entrypoints": [
     "static/css/main.47e728ea.css",
-    "static/js/main.03c98bbb.js"
+    "static/js/main.6c03c6ed.js"
   ]
 }
